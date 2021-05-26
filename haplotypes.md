@@ -29,9 +29,9 @@ end;
 
 Observação:
 
-* Alguns programas poder modificar esse header, o que impede de alguns programas rodarem como o MrBayes por exemplo, então sugiro que você observe campos como `datatype`, e modifique os campos de `missing` **?** para **N**
+* Alguns programas podem modificar esse *header*, o que impede alguns programas de rodarem como o MrBayes por exemplo, então sugiro que você observe campos como `datatype`, e modifique o campo de `missing` **?** para **N**
 * Outros pontos importantes como o `ntax` e `nchar` sempre são importantes a serem checados
-* Mais um detalhe é que alguns softwares colocam aspas simples no nome da sequência no exemple acima seria `'id-sequence1'`
+* Mais um detalhe é que alguns *softwares* colocam aspas simples no nome da sequência no exemplo acima seria `'id-sequence1'`, então precisamos remover as aspas
 
 > Se lembra de mais algum adiciono depois
 
@@ -39,7 +39,7 @@ Observação:
 
 Com o nexus editado "caso precise" é só seguir as recomendações do [PopART](http://popart.otago.ac.nz/doc/popart.pdf) que pode ser baixado [aqui](http://popart.otago.ac.nz/downloads.shtml)
 
-Para nosso caso vamos adaptar o nexus para rodar a contrução da rede de haplótipos usando os `estados` de cada sequência, sendo assim vamos fazer alguns modificações no código:
+Para nosso caso vamos adaptar o **nexus** para rodar a contrução da rede de haplótipos usando os `estados` de cada sequência, sendo assim vamos fazer alguns modificações no código:
 > Existem outros modelos de correlacionar as sequências inclusive coordenadas geográficas
 
 * Configurar as flags `NTRAITS`, `missing`, `separator` e `TraitLabels`
@@ -62,7 +62,7 @@ id-sequence2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 ;
 end;
 ```
-> Como podemos observar acima a sequência 1 é oriunda de SP e a 2 de PE
+> Como podemos observar acima, a sequência 1 é oriunda de SP e a 2 de PE
 
 Com o nexus finalemnte pronto vamos importar o arquivo para o PopART
 

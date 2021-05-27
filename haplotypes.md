@@ -64,7 +64,7 @@ end;
 ```
 > Como podemos observar acima, a sequência 1 é oriunda de SP e a 2 de PE
 
-Com o nexus finalemnte pronto vamos importar o arquivo para o PopART
+Com o nexus finalmente pronto, vamos importar o arquivo para o PopART
 
 ## Considerações finais
 

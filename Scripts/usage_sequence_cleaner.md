@@ -16,7 +16,7 @@ For example:
 
 > If you don’t care about the 2nd and the 3rd parameters you are just gonna remove the duplicate sequences
 
-## sequence_cleaner_2
+## sequence_cleaner_all
 
 **usage** `python sequence_cleaner.py input[1] min_length[2] min[3] min[4] min[5]  min[6]  min[7]  min[8]  min[9]  min[10]  min[11]  min[12]`
 

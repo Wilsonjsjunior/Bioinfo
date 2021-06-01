@@ -38,4 +38,4 @@ For example:
 
 ```python sequence_cleaner_2.py dataset_test.fasta 0 0 0 0 0 0 0 0 0 0 0 0```
 
-For both the outout will generate `clear_"your_sequences".fasta`
+For both the output will generate `clear_"your_sequences".fasta`
